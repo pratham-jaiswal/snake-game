@@ -1,5 +1,6 @@
 import pygame
 import random
+import sys
 
 pygame.init()
 
@@ -121,6 +122,6 @@ def gameLoop():
         pygame.time.Clock().tick(snake_speed)
 
     pygame.quit()
-    quit()
+    sys.quit()
 
 gameLoop()
